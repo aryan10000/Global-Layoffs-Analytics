@@ -6,7 +6,8 @@ End-to-end workforce analytics project leveraging MySQL and Tableau to uncover g
 
 <img width="1280" height="832" alt="dashboard-1" src="https://github.com/user-attachments/assets/132ff126-4c5c-41f5-8399-48ce62609c25" />
 
-
+### Interactive Dashboard 
+**View Dashboard Here:** [View Interactive Tableau Dashboard](https://public.tableau.com/views/World_Layoffs_tableau_dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Key Insights
 
@@ -23,8 +24,7 @@ End-to-end workforce analytics project leveraging MySQL and Tableau to uncover g
 
 Global workforce reductions have impacted thousands of organizations across industries. This project analyzes layoff patterns to identify which companies, industries, and countries were most affected and how workforce reductions evolved over time.
 
-### Interactive Dashboard 
-**View Dashboard Here:** [View Interactive Tableau Dashboard](https://public.tableau.com/views/World_Layoffs_tableau_dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 ---
 
 ## Dataset
