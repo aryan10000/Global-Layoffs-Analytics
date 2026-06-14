@@ -1,4 +1,3 @@
-```markdown
 # End-to-End Global Workforce Layoffs Analytics
 
 End-to-end workforce analytics project leveraging MySQL and Tableau to analyze global layoff trends across companies, industries, countries, and funding stages. The project transforms raw workforce reduction data into executive-level business intelligence through advanced SQL analysis and interactive dashboarding.
@@ -150,4 +149,3 @@ This project demonstrates how workforce reduction data can be transformed into s
 Aryan Soni
 
 Data Analyst | SQL | Python | PostgreSQL | Tableau
-```
