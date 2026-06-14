@@ -1,35 +1,60 @@
-# Global Layoffs Analytics
+```markdown
+# End-to-End Global Workforce Layoffs Analytics
 
-End-to-end workforce analytics project leveraging MySQL and Tableau to uncover global layoff trends across companies, industries, countries, and time periods.
+End-to-end workforce analytics project leveraging MySQL and Tableau to analyze global layoff trends across companies, industries, countries, and funding stages. The project transforms raw workforce reduction data into executive-level business intelligence through advanced SQL analysis and interactive dashboarding.
 
-## Dashboard Preview
+---
+
+## Executive Dashboard
 
 <img width="1280" height="832" alt="dashboard-1" src="https://github.com/user-attachments/assets/132ff126-4c5c-41f5-8399-48ce62609c25" />
 
-### Interactive Dashboard 
-**View Dashboard Here:** [View Interactive Tableau Dashboard](https://public.tableau.com/views/World_Layoffs_tableau_dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+### Interactive Dashboard
 
-## Key Insights
+🔗 **View Dashboard Here:**  
+https://public.tableau.com/views/World_Layoffs_tableau_dashboard/Dashboard1
+
+---
+
+## Executive Summary
+
+This project analyzes global workforce reductions to identify the companies, industries, and countries most affected by layoffs and uncover workforce trends across different time periods.
+
+Using MySQL for data cleaning and exploratory analysis and Tableau for visualization, the project delivers actionable business insights into workforce reduction patterns, industry-level risk, geographic impact, and macroeconomic trends.
+
+---
+
+## Key Business Insights
 
 - Technology companies accounted for the largest share of global layoffs.
-- The United States experienced the highest number of workforce reductions among all countries.
-- Several startups reported 100% workforce reductions during economic downturns.
-- Layoffs peaked during 2022–2023, reflecting broader macroeconomic uncertainty.
+- The United States recorded the highest workforce reductions globally.
+- Workforce reductions accelerated significantly during the 2022–2023 period.
+- Several venture-backed startups experienced complete workforce reductions.
 - Consumer, retail, and technology sectors were among the most heavily impacted industries.
-- A small number of large organizations contributed disproportionately to total layoffs worldwide.
+- A relatively small number of organizations contributed disproportionately to total layoffs worldwide.
 
 ---
 
 ## Business Problem
 
-Global workforce reductions have impacted thousands of organizations across industries. This project analyzes layoff patterns to identify which companies, industries, and countries were most affected and how workforce reductions evolved over time.
+Organizations, investors, and analysts require visibility into workforce reduction trends to understand economic shifts, identify industry-level vulnerabilities, and evaluate geographic impact.
 
+This project answers key business questions such as:
+
+- Which companies experienced the highest layoffs?
+- Which industries were most affected?
+- Which countries recorded the largest workforce reductions?
+- How did layoff trends evolve over time?
+- What relationship exists between funding levels and workforce reductions?
+- Which companies experienced 100% workforce layoffs?
 
 ---
 
 ## Dataset
 
-The dataset contains global layoff records, including:
+The dataset contains global layoff records collected from publicly available sources.
+
+### Features
 
 - Company
 - Industry
@@ -46,7 +71,7 @@ The dataset contains global layoff records, including:
 
 ## Analytics Workflow
 
-### Data Cleaning (MySQL)
+### Data Cleaning & Preparation (MySQL)
 
 Performed:
 
@@ -68,54 +93,61 @@ Key questions answered:
 - Which companies experienced the highest layoffs each year?
 - What were the cumulative layoff trends?
 
-### Dashboard Development (Tableau)
+### Executive Dashboard Development (Tableau)
 
 Created an interactive dashboard featuring:
 
-- Layoffs by Company
-- Layoffs by Industry
-- Country-wise Layoff Analysis
 - Layoff Trends Over Time
-- Top Companies by Layoffs
-- Cumulative Layoff Analysis
+- Most Affected Industries
+- Geographic Distribution of Layoffs
+- Top Companies by Workforce Reduction
+- Funding vs Workforce Reduction Analysis
+- Companies with 100% Workforce Reduction
 
 ---
 
-## SQL Concepts Used
+## Advanced SQL Techniques Used
 
-- CTEs
+- Common Table Expressions (CTEs)
 - Window Functions
 - ROW_NUMBER()
 - DENSE_RANK()
 - Aggregate Functions
 - Date Functions
-- Data Cleaning Techniques
+- Rolling Calculations
+- Cumulative Analysis
+- Data Cleaning
 - Data Transformation
+- Data Validation
 
 ---
 
-## Tools & Technologies
+## Technology Stack
 
 - MySQL
 - SQL
 - Tableau
+- Tableau Public
 
 ---
 
-## Files Included
+## Repository Structure
 
-- world_layoffs_analysis.sql
-- dashboard.png
-- README.md
+world_layoffs_analysis.sql
+world_layoffs_dashboard.png
+README.md
 
 ---
 
-## Project Outcome
+## Business Impact
 
-Built an end-to-end analytics solution that transformed raw layoff records into actionable insights, enabling trend analysis across industries, companies, and geographies through SQL-based exploration and executive dashboarding.
+This project demonstrates how workforce reduction data can be transformed into strategic business intelligence through SQL analytics and dashboarding. The resulting insights help stakeholders identify high-risk industries, monitor workforce trends, evaluate company-level impact, and understand broader economic conditions affecting employment decisions.
 
 ---
 
 ## Author
 
 Aryan Soni
+
+Data Analyst | SQL | Python | PostgreSQL | Tableau
+```
