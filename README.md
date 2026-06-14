@@ -23,6 +23,21 @@ This project analyzes global workforce reductions to identify the companies, ind
 Using MySQL for data cleaning and exploratory analysis and Tableau for visualization, the project delivers actionable business insights into workforce reduction patterns, industry-level risk, geographic impact, and macroeconomic trends.
 
 ---
+## Project Architecture
+
+```text
+Raw Dataset
+    ↓
+Data Cleaning (MySQL)
+    ↓
+Exploratory Data Analysis (SQL)
+    ↓
+Business Insights
+    ↓
+Interactive Tableau Dashboard
+```
+
+---
 
 ## Key Business Insights
 
@@ -53,6 +68,13 @@ This project answers key business questions such as:
 ## Dataset
 
 The dataset contains global layoff records collected from publicly available sources.
+
+### Dataset Overview
+
+- 2,000+ layoff records
+- Multiple industries and countries
+- Workforce reduction data spanning 2020–2023
+- Funding and company-stage information
 
 ### Features
 
@@ -131,11 +153,13 @@ Created an interactive dashboard featuring:
 
 ---
 
-## Repository Structure
+## Project Deliverables
 
-world_layoffs_analysis.sql
-world_layoffs_dashboard.png
-README.md
+- Data Cleaning & Transformation Pipeline (MySQL)
+- Exploratory Data Analysis Queries
+- Interactive Tableau Dashboard
+- Business Insights & Recommendations
+- Project Documentation
 
 ---
 
