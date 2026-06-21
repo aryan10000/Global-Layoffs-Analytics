@@ -173,4 +173,4 @@ This project demonstrates how workforce reduction data can be transformed into s
 
 Aryan Soni
 
-Data Analyst | SQL | Python | PostgreSQL | Tableau
+Data Analyst | SQL | Python | PostgreSQL | PowerBI | Tableau
